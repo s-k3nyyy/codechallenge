@@ -1,6 +1,5 @@
 const Marks =prompt("Enter student marks (between 0 and 100):");
 
-// Check the grade based on the input marks
 let grade;
 if (Marks >= 80) {
     grade = "A";
@@ -14,5 +13,5 @@ if (Marks >= 80) {
     grade = "E";
 }
 
-// Output the result
+//  result
 console.log(`The student's grade is: ${grade}`);
